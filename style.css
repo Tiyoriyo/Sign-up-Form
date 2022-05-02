@@ -27,7 +27,7 @@ body {
 
 .top-login-container,
 .bottom-login-container {
-    background-color: #282737;
+    background-color: #373546;
     height: 20%;
 }
 
@@ -58,14 +58,25 @@ input[type="text"], input[type="email"], input[type="password"] {
 }
 
 label {
-    color: #282737;
+    color: #4e4c6d;
     font-weight: bold;
     align-self: flex-start;
+}
+
+h1 {
+    color: #3e3c57;
 }
 .inputs {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 5px;
+}
+
+.image-div {
+    display: flex;
+    flex: auto;
+    justify-content: center;
 }
 
 #grunt {
