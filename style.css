@@ -1,17 +1,84 @@
+@font-face {
+    font-family: lemonMilk;
+    src: url(fonts/lemon_milk/LEMONMILK-Regular.otf)
+}
+
 * {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: lemonMilk;
 }
 
 body {
-    margin: 0;
     display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
+    background-color: #233748;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+    background: white;
+    box-shadow: 0 5px 8px rgb(0, 0, 0, 0.5);
+}
+
+.bannerimg {
+   border-bottom: 1px solid black;
+   box-shadow: 0 5px 8px rgb(0, 0, 0, 0.5);
+}
+
+.main {
+    padding: 20px;
 }
 
 .main-left {
     display: flex;
+    flex-direction: column;
+    width: fit-content;
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
 
+h2 {
+    text-shadow: 3px 3px 5px rgb(0, 0, 0, 0.2);
+}
 
+.inputs {
+    display: flex;
+    flex-direction: column;
+}
 
+input[type='text'], input[type='email'], input[type='number'], input[type='password'], button {
+    -webkit-appearance: none;
+    appearance: none;
+
+    border: 1px solid black;
+    border-radius: 2px;
+    height: 25px;
+    width: inherit;
+    box-shadow: 0 5px 8px rgb(0, 0, 0, 0.1);
+}
+
+button {
+    background-color: #8BCE6B;
+    width: 200px;
+    height: 45px;
+    border-radius: 5px;
+    align-self: flex-start;
+    box-shadow: 0px 8px 15px rgb(0, 0, 0, 0.5);
+}
+
+button:hover, button:active {
+    background-color: #76b35a;
+}
+
+button:active {
+    box-shadow: none;
+}
