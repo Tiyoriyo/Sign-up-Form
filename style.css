@@ -25,12 +25,32 @@ body {
     box-shadow: 0 5px 8px rgb(0, 0, 0, 0.5);
 }
 
+.bannercontainer {
+    position: relative;
+}
+
 .bannerimg {
    border-bottom: 1px solid black;
    box-shadow: 0 5px 8px rgb(0, 0, 0, 0.5);
 }
 
+.banner-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    height: 75px;
+    top: 70px;
+   
+    background-color: #0000006c;
+    color: white;
+    font-size: 40px;
+    font-style: italic;
+}
+
 .main {
+    display: flex;
     padding: 20px;
 }
 
@@ -46,7 +66,7 @@ form {
     gap: 20px;
 }
 
-h2 {
+h2, h3 {
     text-shadow: 3px 3px 5px rgb(0, 0, 0, 0.2);
 }
 
@@ -66,19 +86,68 @@ input[type='text'], input[type='email'], input[type='number'], input[type='passw
     box-shadow: 0 5px 8px rgb(0, 0, 0, 0.1);
 }
 
+#first_name:invalid, #last_name:invalid, #email_address:invalid, #phone:invalid,
+#pwd:invalid, #c-pwd:invalid  {
+    border: 2px solid red;
+}
+
+
 button {
     background-color: #8BCE6B;
     width: 200px;
     height: 45px;
     border-radius: 5px;
-    align-self: flex-start;
+    align-items: center;
     box-shadow: 0px 8px 15px rgb(0, 0, 0, 0.5);
 }
 
 button:hover, button:active {
     background-color: #76b35a;
+    cursor: pointer;
+
 }
 
 button:active {
     box-shadow: none;
+}
+
+.login {
+    font-size: 10px;
+    color: #4e4782;
+    text-shadow:  3px 3px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.main-right {
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.feature-title {
+    color:#4e4782;
+    font-style: italic;
+    font-size: 24px;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    list-style: none;
+    font-style: italic;
+    color: #155041;
+}
+
+.icon {
+    width: 25px;
+    height: fit-content;
+}
+
+.button-blue {
+    background-color: #685FAE;
+    color: #ccc5ff;
+    font-weight: bold;
 }

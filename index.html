@@ -9,18 +9,21 @@
 </head>
 <body>
     <div class="container">
-        <img src="images/ban.jpg" class="bannerimg">
+        <div class="bannercontainer">
+            <img src="images/ban.jpg" class="bannerimg">
+            <p class="banner-title">Hammerquest</p>
+        </div>
         <div class="main">
             <div class="main-left">
                 <h2>Create your account!</h2>
                 <form>
                     <div class="inputs">
                         <label for="first_name">FIRST NAME</label>
-                        <input type="text" id="first_name" name="first_name">
+                        <input type="text" id="first_name" name="first_name" pattern="[a-zA-Z]">
                     </div>
                     <div class="inputs">
                         <label for="last_name">LAST NAME</label>
-                        <input type="text" id="last_name" name="last_name">
+                        <input type="text" id="last_name" name="last_name" pattern="[a-zA-Z]">
                     </div>
                     <div class="inputs">
                         <label for="email_address">EMAIL</label>
@@ -38,11 +41,22 @@
                         <label for="c-pwd">CONFIRM PASSWORD</label>
                         <input type="password" id="c-pwd" name="c-pwd">
                     </div>
-                    <button>Sign up!</button>
+                    <div class="button-link">
+                        <button>Sign up!</button>
+                        <p class="login"><a>Log-in here if you have an account</a></p>
+                    </div>
                 </form>
             </div>
             <div class="main-right">
-                
+                <h3 class="feature-title">A world awaits you</h3>
+                <ul>
+                    <li><img src="images/icons8-star-48.png" class="icon">Up to 30</li>
+                    <li><img src="images/icons8-plane-64.png" class="icon">Dynanmic flying mounts</li>
+                    <li><img src="images/icons8-cash-48.png" class="icon">State of the art economic system</li>
+                    <li><img src="images/icons8-house-48.png" class="icon">Fully-customizable player housing</li>
+                    <li><img src="images/icons8-fence-40.png" class="icon">Your territory across the map</li>
+                </ul>
+                <button class="button-blue">View Gameplay Trailer</button>
             </div>
         </div>
     </div>
