@@ -1,3 +1,17 @@
+@font-face {
+    font-family: lemonMilk;
+    src: url(fonts/lemon_milk/LEMONMILK-Regular.otf);
+}
+
+@font-face {
+    font-family: lemonMilkItallic;
+    src: url(fonts/lemon_milk/LEMONMILK-RegularItalic.otf);
+}
+
+* {
+    font-family: lemonMilkItallic;
+}
+
 html {
     display: flex;
     justify-content: center;
@@ -40,9 +54,34 @@ body {
 }
 
 .bottom-section-left {
+    display: flex;
+    flex-direction: column;
     flex: auto;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+}
+
+label {
+    font-size: 16px;
 }
 
 .bottom-section-right {
+    display: flex;
+    flex-direction: column;
     flex: auto;
+    align-items: center;
+}
+
+.input-field {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    font-family: lemonMilk;
 }
