@@ -8,8 +8,19 @@
     src: url(fonts/lemon_milk/LEMONMILK-RegularItalic.otf);
 }
 
+@font-face {
+    font-family: RobotoCondensedRegular;
+    src: url(fonts/Roboto_Condensed/RobotoCondensed-Regular.ttf);
+}
+
+@font-face {
+    font-family: RobotoCondensedBoldItallic;
+    src: url(fonts/Roboto_Condensed/RobotoCondensed-BoldItalic.ttf);
+}
+
 * {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: RobotoCondensedRegular;
+    font-size: 16px;
 }
 
 html {
@@ -82,7 +93,8 @@ button {
     display: flex;
     flex-direction: column;
     flex: auto;
-    align-items: center;
+    align-items: flex-start;
+    padding-left: 80px;
 }
 
 form {
@@ -132,6 +144,7 @@ li {
     flex-direction: column;
     flex: auto;
     align-items: center;
+    padding-right: 80px;
 }
 
 .input-field {
@@ -140,5 +153,6 @@ li {
 }
 
 .header {
-    
+    font-family: RobotoCondensedBoldItallic;
+    font-size: 32px;
 }
