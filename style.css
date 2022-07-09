@@ -45,6 +45,15 @@ button {
 
 }
 
+#create:hover {
+    background-color: #7167bf;
+}
+
+#create:active {
+    background-color: #7167bf;
+    box-shadow: none;
+}
+
 .main-container {
     display: flex;
     flex-direction: column;
