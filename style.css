@@ -53,6 +53,7 @@ button {
     background: #33C481;
     color: #ffffff;
     border: 1px solid #1a6140;
+    border-radius: 7px;
 }
 
 #cinematic:hover {
