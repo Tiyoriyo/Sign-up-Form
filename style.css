@@ -136,7 +136,28 @@ li {
 }
 
 .feature-item {
-    font-size: 14px;
+    font-family: RobotoCondensedBoldItallic;
+    font-size: 20px;
+}
+
+.money {
+    color: #33C481
+}
+
+.territory {
+    color: #D6AA70;
+}
+
+.house {
+    color: #D32F2F;
+}
+
+.mount {
+    color: #008FFF;
+}
+
+.vip {
+    color: #FFC911;
 }
 
 .bottom-section-right {
