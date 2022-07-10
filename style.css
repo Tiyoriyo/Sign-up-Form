@@ -49,11 +49,12 @@ button {
 }
 
 #cinematic {
-    padding: 10px;
+    padding: 10px 25px;
     background: #33C481;
     color: #ffffff;
     border: 1px solid #1a6140;
     border-radius: 7px;
+    margin-left: 40px;
 }
 
 #cinematic:hover {
