@@ -58,21 +58,22 @@ button {
     box-shadow: 0px 5px 5px rgb(0, 0, 0, 0.3);
 }
 
-#cinematic {
+#play {
     padding: 10px 25px;
     background: #33C481;
     color: #ffffff;
+    letter-spacing: 2px;
     border: 1px solid #1a6140;
     border-radius: 7px;
     margin-left: 40px;
 }
 
-#cinematic:hover {
+#play:hover {
     background-color: #2fad72;
     cursor: pointer;
 }
 
-#cinematic:active {
+#play:active {
     background-color: #2fad72;
     box-shadow: none;
 }
