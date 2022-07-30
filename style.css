@@ -227,3 +227,9 @@ li {
     font-size: 32px;
     margin-top: 0;
 }
+
+.loginCont {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
