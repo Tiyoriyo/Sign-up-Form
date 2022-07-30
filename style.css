@@ -58,43 +58,6 @@ button {
     box-shadow: 0px 5px 5px rgb(0, 0, 0, 0.3);
 }
 
-#play {
-    padding: 10px 25px;
-    background: #33C481;
-    color: #ffffff;
-    letter-spacing: 2px;
-    border: 1px solid #1a6140;
-    border-radius: 7px;
-    margin-left: 40px;
-}
-
-#play:hover {
-    background-color: #2fad72;
-    cursor: pointer;
-}
-
-#play:active {
-    background-color: #2fad72;
-    box-shadow: none;
-}
-
-#create {
-    padding: 5px 10px;
-    background-color: #8479d5;
-    color: white;
-    border: 1px solid #5a5391;
-}
-
-#create:hover {
-    background-color: #7167bf;
-    cursor: pointer;
-}
-
-#create:active {
-    background-color: #7167bf;
-    box-shadow: none;
-}
-
 .main-container {
     display: flex;
     flex-direction: column;
@@ -131,11 +94,66 @@ button {
     padding-left: 80px;
 }
 
+.header {
+    font-family: RobotoCondensedBoldItallic;
+    font-size: 32px;
+    margin-top: 0;
+    color: #7167bf;
+    text-shadow: 2px 3px 10px rgb(0, 0, 0, 0.2);
+}
+
 form {
     display: flex;
     flex: auto;
     flex-direction: column;
     gap: 16px;
+}
+
+.input-field {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+label {
+    font-size: 16px;
+}
+
+input {
+    border: 1px solid black;
+    outline: none;
+    padding: 5px 5px;
+}
+
+input:valid {
+    background: url("images/thumbs-up-svgrepo-com.svg") no-repeat 95% 50%;
+}
+
+input:invalid:focus {
+    border: 1px solid red;
+}
+
+.loginCont {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#create {
+    padding: 5px 10px;
+    background-color: #8479d5;
+    color: white;
+    border: 1px solid #5a5391;
+}
+
+#create:hover {
+    background-color: #7167bf;
+    cursor: pointer;
+}
+
+#create:active {
+    background-color: #7167bf;
+    box-shadow: none;
 }
 
 .login {
@@ -146,22 +164,18 @@ form {
     font-style: italic;
 }
 
-label {
-    font-size: 16px;
+.bottom-section-right {
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+    align-items: center;
+    padding-right: 80px;
 }
 
-input:invalid:focus {
-    border: 1px solid red;
-}
-
-input:valid {
-    background: url("images/thumbs-up-svgrepo-com.svg") no-repeat 95% 50%;
-}
-
-input {
-   border: 1px solid black;
-   outline: none;
-   padding: 5px 5px;
+.feature-list {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
 }
 
 li {
@@ -175,12 +189,6 @@ li {
     width: auto;
     height: 30px;
     align-self: flex-start;
-}
-
-.feature-list {
-   display: flex;
-   flex-direction: column;
-   gap: 6px;
 }
 
 .feature-item {
@@ -208,30 +216,22 @@ li {
     color: #FFC911;
 }
 
-.bottom-section-right {
-    display: flex;
-    flex-direction: column;
-    flex: auto;
-    align-items: center;
-    padding-right: 80px;
+#play {
+    padding: 10px 25px;
+    background: #33C481;
+    color: #ffffff;
+    letter-spacing: 2px;
+    border: 1px solid #1a6140;
+    border-radius: 7px;
+    margin-left: 40px;
 }
 
-.input-field {
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
+#play:hover {
+    background-color: #2fad72;
+    cursor: pointer;
 }
 
-.header {
-    font-family: RobotoCondensedBoldItallic;
-    font-size: 32px;
-    margin-top: 0;
-    color: #7167bf;
-    text-shadow: 2px 3px 10px rgb(0, 0, 0, 0.2);
-}
-
-.loginCont {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
+#play:active {
+    background-color: #2fad72;
+    box-shadow: none;
 }
