@@ -125,8 +125,8 @@ input {
     padding: 5px 5px;
 }
 
-input:valid {
-    background: url("images/thumbs-up-svgrepo-com.svg") no-repeat 95% 50%;
+input:valid:focus {
+    border: 1px solid rgb(0, 188, 0);
 }
 
 input:invalid:focus {
