@@ -151,11 +151,12 @@ label {
 }
 
 input[type="text"]:invalid, input[type="password"]:invalid, input[type="email"]:invalid, input[type="date"]:invalid {
-    border: 2px solid red;
+    border: 1px solid red;
 }
 
 input[type="text"], input[type="password"], input[type="email"], input[type="date"] {
    border: 1px solid black;
+   outline: none;
 }
 
 li {
@@ -213,6 +214,7 @@ li {
 .input-field {
     display: flex;
     flex-direction: column;
+    gap: 2px;
 }
 
 .header {
