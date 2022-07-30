@@ -154,9 +154,14 @@ input[type="text"]:invalid, input[type="password"]:invalid, input[type="email"]:
     border: 1px solid red;
 }
 
-input[type="text"], input[type="password"], input[type="email"], input[type="date"] {
+input:valid {
+    background: url("images/thumbs-up-svgrepo-com.svg") no-repeat 95% 50%;
+}
+
+input {
    border: 1px solid black;
    outline: none;
+   padding: 5px 5px;
 }
 
 li {

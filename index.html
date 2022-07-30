@@ -19,19 +19,19 @@
                 <form>
                     <div class="input-field">
                         <label for"userName">User Name</label>
-                        <input type="text" id="userName" name="userName" pattern="[a-zA-Z0-9-_]*">
+                        <input type="text" id="userName" name="userName" pattern="[a-zA-Z0-9-_]*" required>
                     </div>
                     <div class="input-field">
                         <label for="pwd">Password</label>
-                        <input type="password" name="pwd" id="pwd" pattern="[a-zA-Z\d^\S]*"" min="5" max="8">
+                        <input type="password" name="pwd" id="pwd" pattern="[a-zA-Z\d^\S]*"" min="5" max="8" required>
                     </div>
                     <div class="input-field">
                         <label for="email">Email Address</label>
-                        <input type="email" name="email" id="email">
+                        <input type="email" name="email" id="email" required>
                     </div>
                     <div class="input-field">
                         <label for="dob">Date of Birth</label>
-                        <input type="date" name="dob" id="dob">
+                        <input type="date" name="dob" id="dob" required>
                     </div>
                     <div>
                         <button id="create">Create Account</button>
